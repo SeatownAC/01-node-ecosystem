@@ -1,12 +1,12 @@
-'use strict'
+'use strict';
 
 function greet(name) {
 
-    if(typeof name !== 'string') {
-        return null;
-    }
-    
-    return `Hello, ${name}`;
+if(typeof name !== 'string') {
+    return null;
 }
-    module.exports = greet;
+    
+return `Hello, ${name}`;
+}
+module.exports = greet;
 
