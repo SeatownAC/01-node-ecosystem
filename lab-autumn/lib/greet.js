@@ -2,11 +2,11 @@
 
 function greet(name) {
 
-if(typeof name !== 'string') {
+  if(typeof name !== 'string') {
     return null;
-}
+  }
     
-return `Hello, ${name}`;
+  return `Hello, ${name}`;
 }
 module.exports = greet;
 
