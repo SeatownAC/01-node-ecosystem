@@ -2,7 +2,7 @@ const arithmetic = require('../lib/arithmetic.js');
 
 describe('adding function', () => {
 
- it('return the sum of two numbers', () => {
+  it('return the sum of two numbers', () => {
     let a = 2;
     let b = 2;
     let expected = 4;
@@ -16,9 +16,9 @@ describe('adding function', () => {
   });
 
   it ('return null if passed a boolean', () => {
-      let msg = true;
-      let a = 2;
-      expect(arithmetic.add(msg,a)).toBeNull();
+    let msg = true;
+    let a = 2;
+    expect(arithmetic.add(msg,a)).toBeNull();
   });
 });
 
@@ -33,7 +33,7 @@ describe('subtraction function', () => {
 
   it('return null when passed a non number', () => {
     let str = 'not a number';
-    let b = 2
+    let b = 2;
     expect(arithmetic.sub(str, b)).toBeNull();
   });
 });
